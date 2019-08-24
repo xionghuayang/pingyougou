@@ -1,0 +1,277 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red {
+	color: #c81623;
+}
+/*shurtcut start*/
+.shortcut {
+	height: 32px;
+	line-height: 32px;
+	background-color: #f1f1f1;
+	color:#666;
+	font-size: 12px;
+}
+.shortcut-r li {
+	float: left;
+}
+.space {
+	width: 1px;
+	height: 13px;
+	background-color: #666;
+	margin: 10px 13px 0;
+}
+.icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 20px;
+}
+/*header start*/
+.header {
+	position: relative;
+	height: 105px;
+	/*background-color: aqua;*/
+}
+.header h1 {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	overflow: hidden;
+}
+.header h1 a {
+	display: block;
+	width: 177px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+}
+.search {
+	position: absolute;
+	left: 348px;
+	top: 25px;
+}
+.search input {
+	float: left;
+	width: 444px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	font-size: 14px;
+	color: #666;
+	padding-left: 10px;
+}
+.search button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 70px;
+	left: 348px;
+}
+.hotwords a {
+	margin: 0 8px;
+}
+.shopcar {
+	position: absolute;
+	right: 64px;
+	top: 25px;
+	width: 120px;
+	height: 34px;
+	padding-left: 18px;
+	line-height: 34px;
+	border: 1px solid #dfdfdf;
+}
+.shopcar i {
+	font-family: 'icomoon';
+}
+.shopcar span {
+	margin: 0 3px;
+}
+.count {
+	position: absolute;
+	top: -10px;
+	left: 105px;
+	height: 16px;
+	padding: 0 2px;
+	line-height: 16px;
+	text-align: center;
+	background-color: #e60012;
+	color: #fff;
+	border-radius: 8px 8px 8px 0;
+}
+/*nav start*/
+.nav {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 2px solid #b1191a;
+	/*background-color: aqua;*/
+}
+.dropdown {
+	width: 210px;
+}
+/*.dropdown:hover .dd {
+	display: block;
+}*/
+.dt {
+	height: 45px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #b1191a;
+	color: #fff;
+	margin-bottom: 2px;
+}
+.dd {
+	height: 466px;
+	background-color: #c81623;
+}
+.dd li {
+	margin-left: 1px;
+	padding: 0 10px;
+	height: 31px;
+	line-height: 31px;
+	font-size: 14px;
+	color: #fff;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+.dd li a {
+	height: 31px;
+	color: #fff;
+}
+.dd li:hover {
+	padding-left: 20px;
+	background-color: #fff;
+}
+.dd li:hover a {
+	color: #c81623;
+}
+.dd li i {
+	font-family: 'icomoon';
+	float: right;
+	font-size: 18px;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+	
+}
+.navitems li a {
+	display: block;
+	padding: 0 25px;
+	height: 45px;
+	color: #333;
+	font-size: 16px;
+}
+.navitems li a:hover {
+	color: #e33333;
+}
+/*footer start*/
+.footer {
+	height: 416px;
+	background-color: #f5f5f5;
+}
+.mod_service {
+	height: 78px;
+	padding-top: 30px;
+	border-bottom: 1px solid #ededed;
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+	/*height: 108px;*/
+	/*background-color: aqua;*/
+}
+.mod_service_icon {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 35px;
+	background: url(../img/icons.png) no-repeat;
+}
+.mod_service_zheng {
+	background-position: -252px -3px ;
+}
+.mod_service_ji {
+	background-position: -255px -54px ;
+}
+.mod_service_wu {
+	background-position: -257px -106px ;
+}
+.mod_service_te {
+	background-position: -257px -157px ;
+}
+.mod_service_bang {
+	background-position: -257px -208px ;
+}
+.mod_service_text {
+	float: left;
+	margin-left: 5px;
+}
+.mod_service_text h4 {
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+.mod_service_text p {
+	font-size: 12px;
+	color: #666;
+}
+
+.mod_help {
+	height: 170px;
+	padding-top: 20px;
+	/*background-color: aqua;*/
+	border-bottom: 1px solid #ededed;
+}
+.mod_help dl {
+	float: left;
+	width: 150px;
+	height: 170px;
+	padding-left: 50px;
+	/*background-color: #ccc;*/
+}
+.mod_help dt {
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	color: #333;
+}
+.mod_help dd {
+	height: 21px;
+	line-height: 21px;
+	color: #333;
+}
+.mod_help_last {
+	text-align: center;
+}
+.mod_help_last p {
+	margin-top: 5px;
+}
+.mod_copyright {
+	text-align: center;
+}
+.mod_copyright_links {
+	margin: 10px 0;
+}
+.mod_copyright span {
+	margin: 0 8px;
+}
+.mod_copyright_id {
+	height: 20px;
+	line-height: 20px;
+}
